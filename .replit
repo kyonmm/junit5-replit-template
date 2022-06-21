@@ -1,2 +1,8 @@
 language = "bash"
 run = "./gradlew clean test"
+
+[unitTest]
+language = "java"
+
+[nix]
+channel = "stable-21_11"
